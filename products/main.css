@@ -1,0 +1,353 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: burlywood; 
+    background-repeat: no-repeat;
+    background-size: cover;}
+   
+   #myheader{
+     background-color: #eff0f1;
+     position: relative;
+     width: 90%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position:relative;
+     display: block;
+     margin: auto;
+   
+   
+   
+   }
+   
+   .logo{
+     position: relative;
+     text-align: center;
+     color: red;
+     font-size: 30px;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: 1px;
+   }
+   
+   .nav-menu a{
+     color: #000;
+     text-decoration: none;
+     font-weight: 500;
+     letter-spacing: 1px;
+     padding: 2px 15px;
+     border-radius: 20px;
+     transition: 0.3s;
+   }
+   
+   
+   .nav-menu a:hover{
+     background: #fff;
+   }
+   
+   #container{
+   
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 0%;
+    }
+
+
+   #slide img{
+    position: relative;
+    display: block;
+    width: 90%;;
+    margin: auto;
+
+   }
+
+   video{
+    width: 40%;
+    border-radius: 10px;
+    position:relative; 
+   left: 500px;
+    
+}
+
+#intro{
+  position:relative;
+ left:100px;
+
+}
+#intro a{
+    background-color: #5762D5;
+    color: white;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition-duration: 0.3s;}
+
+.product-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 1100px;
+    margin: 15px auto;
+}
+a{
+    text-decoration: none; 
+
+}
+.product-nav h3{    margin: 0;}
+
+.product-nav a, main a{
+    color: #5762D5;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.product-nav a:hover, main a:hover{
+    color: #FB6376;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:auto;
+    margin: auto;
+    gap: 30px 30px;
+}
+.product-card{
+    background-color: #e9e6f0;
+    border-radius: 20px;
+    width: 250px;
+}
+.product-img{
+    border-radius: 20px 20px 0 0;
+
+}
+/* My grid */
+.wrapper{
+  display: grid;
+  column-gap:30px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.product-card {
+  padding: 10px;
+  text-align: center;
+}
+
+   
+   footer{
+     background-color: #eff0f1;
+     position: relative;
+     width: 90%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position:relative;
+     display: block;
+     margin: auto;
+     
+   }
+
+   form{
+    width: 400px;
+    background-color: #EEEFF1;
+    border: solid 1px #3c404a2f;
+    border-radius: 15px;
+    color: #3d414a;
+    padding: 25px;
+    margin: 50px auto;
+}
+.field{
+    width: 94%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+.field:focus{
+    outline: solid 2px #5762D5;
+}
+form a{ color: #5762D5; text-decoration: none;}
+button{
+    width: 100%;
+    background-color: #5762D5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+button:hover{
+    background-color: #4751c0;
+    cursor: pointer;
+}
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #5762D5;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #4751c0;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+   
+   
+
+   
+   #aboutus{
+     border-radius: 25px;
+     background: #F9F9F9;
+     width: 600px;
+     height:600px;
+     position:relative;
+     display: block;
+     margin: auto;
+   
+   
+   }
+
+   #singleproduct{
+    border-radius: 10px;
+    width: 800px;
+    height:auto;
+    position:relative;
+    display: block;
+    margin: auto;
+
+   }
+   
+   
+   .h1about{
+     text-align: center;
+     color: rgb(231, 133, 5);
+   }
+
+   .h3footer{
+    text-align: center;
+    color: red;
+  
+  }
+
+  .h1product{
+    text-align: center;
+    color: rgb(231, 133, 5);
+
+  }
+
+  .grid-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.item{
+  background-color: rgba(248, 20, 20, 0.8);
+  padding: 20px color ;
+  width: 100%;
+  height: auto;
+}
+
+
+
+  
